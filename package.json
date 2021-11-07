@@ -22,13 +22,14 @@
     "mongoose": "^6.0.11",
     "rate-limiter": "^0.2.0",
     "swagger-ui-express": "^4.1.6",
+    "valid-url": "^1.0.9",
     "xss-clean": "^0.1.1",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
   },
-  "engines":{
-    "node":"14.x"
+  "engines": {
+    "node": "14.x"
   }
 }

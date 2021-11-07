@@ -17,6 +17,10 @@ const JobSchema = new mongoose.Schema(
       enum: ["interview", "declined", "pending"],
       default: "pending",
     },
+    link: {
+      type: String,
+      required: [true, "Please provide link"],
+    },
     createdBy: {
       type: mongoose.Types.ObjectId,
       ref: "User",
