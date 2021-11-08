@@ -67,7 +67,7 @@ To run this project, you will need to add the following environment variables to
 | body | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `name` | `string` | **<Required>** User name |
-| `email` | `email` | **<Required>** User Email |
+| `email` | `string` | **<Required>** User Email |
 | `password` | `string` | **<Required>** Password |
 
 ---
