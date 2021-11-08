@@ -79,8 +79,8 @@ To run this project, you will need to add the following environment variables to
 
 | body | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `email` | `string` | **<Required>** User Email |
-| `password` | `string` | **<Required>** User Password |
+| `email` | `string` | <**Required**> User Email |
+| `password` | `string` | <**Required**> User Password |
 
 ---
 
@@ -92,14 +92,14 @@ To run this project, you will need to add the following environment variables to
 
 | Header | Value | Type     | Description                |
 | :-------- | :------- | :------- | :------------------------- |
-| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | **<Required>** Logged User JWT_TOKEN |
+| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
 
 | Parameter | Type     | Allowed Values | Description                       |
 | :-------- | :------- | :------- | :-------------------------------- |
-| `status`      | `string` | *`<pending>`  `<interview>` `<declined>`* | **<optional>** Jobs with `<status>` |
-| `position`      | `string` | *any query string* | **<optional>** Jobs matching `<position>` |
-| `company`      | `string` | *any query string* | **<optional>** Jobs matching `<company>` |
-| `sort`      | `string` | *`<createdAt>` `<updatedAt>` `<company>` `<position>`* | **<optional>** Jobs sorted `<Allowd values>`. Multiple comma-seperated values allowed |
+| `status`      | `string` | *`<pending>`  `<interview>` `<declined>`* | <**optional**> Jobs with `<status>` |
+| `position`      | `string` | *any query string* | <**optional**> Jobs matching `<position>` |
+| `company`      | `string` | *any query string* | <**optional**> Jobs matching `<company>` |
+| `sort`      | `string` | *`<createdAt>` `<updatedAt>` `<company>` `<position>`* | <**optional**> Jobs sorted `<Allowd values>`. Multiple comma-seperated values allowed |
 
 ---
 #### Get single job for a user
@@ -109,7 +109,7 @@ To run this project, you will need to add the following environment variables to
 ```
 | Header | Value | Type     | Description                |
 | :-------- | :------- | :------- | :------------------------- |
-| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | **<Required>** Logged User JWT_TOKEN |
+| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
 
 ---
 #### Create job for a user
@@ -120,14 +120,14 @@ To run this project, you will need to add the following environment variables to
 
 | Header | Value | Type     | Description                |
 | :-------- | :------- | :------- | :------------------------- |
-| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | **<Required>** Logged User JWT_TOKEN |
+| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
 
 | body | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `company` | `string` | **<Required>** Company name |
-| `position` | `string` | **<Required>** Job position |
-| `link` | `string` | **<Required>** Job link/URL |
-| `status` | `string` | **<Required>** Job/Application status |
+| `company` | `string` | <**Required**> Company name |
+| `position` | `string` | <**Required**> Job position |
+| `link` | `string` | <**Required**> Job link/URL |
+| `status` | `string` | <**Required**> Job/Application status |
 
 
 
@@ -139,14 +139,14 @@ To run this project, you will need to add the following environment variables to
 ```
 | Header | Value | Type     | Description                |
 | :-------- | :------- | :------- | :------------------------- |
-| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | **<Required>** Logged User JWT_TOKEN |
+| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
 
 | body | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `company` | `string` | **<optional>** Updated company |
-| `position` | `string` | **<optional>** Updated position |
-| `link` | `string` | **<optional>** Updated link/URL |
-| `status` | `string` | **<optional>** Updated status |
+| `company` | `string` | <**optional**> Updated company |
+| `position` | `string` | <**optional**> Updated position |
+| `link` | `string` | <**optional**> Updated link/URL |
+| `status` | `string` | <**optional**> Updated status |
 
 ---
 #### Delete job for a user
@@ -156,7 +156,7 @@ To run this project, you will need to add the following environment variables to
 ```
 | Header | Value | Type     | Description                |
 | :-------- | :------- | :------- | :------------------------- |
-| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | **<Required>** Logged User JWT_TOKEN |
+| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
 
 ---
 
@@ -167,10 +167,10 @@ To run this project, you will need to add the following environment variables to
 ```
 | Parameter | Type     | Allowed Values | Description                       |
 | :-------- | :------- | :------- | :-------------------------------- |
-| `company`      | `string` | *any query string* | **<optional>** Jobs matching `<company>` |
-| `position`      | `string` | *any query string* | **<optional>** Jobs matching `<position>` |
-| `limit`      | `number` | *any positive number* | **<optional>** Number of jobs per page `<limit>` |
-| `page`      | `number` | *any positive number* | **<optional>** Jobs on page number `<page>` |
+| `company`      | `string` | *any query string* | <**optional**> Jobs matching `<company>` |
+| `position`      | `string` | *any query string* | <**optional**> Jobs matching `<position>` |
+| `limit`      | `number` | *any positive number* | <**optional**> Number of jobs per page `<limit>` |
+| `page`      | `number` | *any positive number* | <**optional**> Jobs on page number `<page>` |
 
 ## Authors
 
