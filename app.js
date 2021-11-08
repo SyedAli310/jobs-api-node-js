@@ -35,9 +35,11 @@ app.use(cors());
 app.use(xss());
 
 // routes
-app.get('/', (req,res)=>{
-  res.status(200).send(`<h1 style='text-align:center; color:limegreen;'>Store API</h1>`)
-})
+app.get("/", (req, res) => {
+  res
+    .status(200)
+    .send(`<h1 style='text-align:center; color:limegreen;'>JobEase API</h1>`);
+});
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/explore", exploreJobsRouter);
 app.use("/api/v1/jobs", authenticateUser, jobsRouter);
