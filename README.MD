@@ -99,7 +99,7 @@ To run this project, you will need to add the following environment variables to
 | `status`      | `string` | *`<pending>`  `<interview>` `<declined>`* | <**optional**> Jobs with `<status>` |
 | `position`      | `string` | *any query string* | <**optional**> Jobs matching `<position>` |
 | `company`      | `string` | *any query string* | <**optional**> Jobs matching `<company>` |
-| `sort`      | `string` | *`<createdAt>` `<updatedAt>` `<company>` `<position>`* | <**optional**> Jobs sorted `<Allowd values>`. Multiple comma-seperated values allowed |
+| `sort`      | `string` | *`<createdAt>` `<updatedAt>` `<company>` `<position>`* | <**optional**> Jobs sorted `<Allowed values>`. Multiple comma-seperated values allowed |
 
 ---
 #### Get single job for a user
