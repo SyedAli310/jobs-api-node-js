@@ -46,7 +46,7 @@ To run this project, you will need to add the following environment variables to
 ## Deployed Links
 
 #### API       - `https://jobease.herokuapp.com`      [🔗](https://jobease.herokuapp.com)
-#### Front-end - `https://jobease.netlify.app`        [🔗](https://jobease.netlify.app)
+#### Front-end - `https://jobease.live`        [🔗](https://jobease.live)
 
 
 ## Security
