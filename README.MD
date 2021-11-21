@@ -112,6 +112,16 @@ To run this project, you will need to add the following environment variables to
 | `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
 
 ---
+#### Get jobs info for a user
+
+```https
+  GET /api/v1/jobs/info
+```
+| Header | Value | Type     | Description                |
+| :-------- | :------- | :------- | :------------------------- |
+| `Authorization` | Bearer `{JWT_TOKEN}` | `string` | <**Required**> Logged User JWT_TOKEN |
+
+---
 #### Create job for a user
 
 ```https
