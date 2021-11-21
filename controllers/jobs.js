@@ -100,10 +100,27 @@ const deleteJob = async (req, res) => {
     .json({ msg: getReasonPhrase(StatusCodes.OK)});
 };
 
+const getJobsInfo = async (req, res) => {
+  const {
+    user: { userId },
+  } = req;
+  const pendingJobs = await Job.find({ createdBy: userId, status: "pending" });
+  const interviewJobs = await Job.find({ createdBy: userId, status: "interview" });
+  const declinedJobs = await Job.find({ createdBy: userId, status: "declined" });
+  const totalJobs = await Job.find({ createdBy: userId });
+  if (!pendingJobs && !interviewJobs && !declinedJobs) {
+    throw new NotFoundError(`No jobs`);
+  }
+  res
+    .status(StatusCodes.OK)
+    .json({ msg: getReasonPhrase(StatusCodes.OK), totalJobs: totalJobs.length, pendingJobs: pendingJobs.length, interviewJobs: interviewJobs.length, declinedJobs: declinedJobs.length });
+};
+
 module.exports = {
   getAllJobs,
   getJob,
   createJob,
   updateJob,
   deleteJob,
+  getJobsInfo,
 };
