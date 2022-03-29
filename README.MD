@@ -190,7 +190,7 @@ To run this project, you will need to add the following environment variables to
 I'm a full stack developer. I love working in JavaScript and related technologies.
 
 ## 🛠 Skills
-`Javascript` `jQuery` `HTML`  `CSS` `reactjs` `django` `php` `nodejs` 
+`Javascript` `jQuery` `HTML`  `CSS` `reactjs` `django` `php` `nodejs` `angular`
 
 
 ## 🔗 Socials - Say Hi 👋
