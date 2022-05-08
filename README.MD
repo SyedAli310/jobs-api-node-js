@@ -203,5 +203,5 @@ I'm a full stack developer. I love working in JavaScript and related technologie
 
 ## Feedback
 
-If you have any feedback, please reach out to me at alizaidi310@gmail.com
+If you have any feedback/queries, please reach out to me at alizaidi310@gmail.com
 
