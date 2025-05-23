@@ -45,8 +45,8 @@ To run this project, you will need to add the following environment variables to
 
 ## Deployed Links
 
-#### API       - `https://jobease.herokuapp.com`      [🔗](https://jobease.herokuapp.com)
-#### Front-end - `https://jobease.live`        [🔗](https://jobease.live)
+#### API       - `https://jobease.vercel.app`      [🔗](https://jobease.vercel.app)
+#### Front-end - `https://jobease-api.vercel.app`        [🔗](https://jobease-api.vercel.app)
 
 
 ## Security
